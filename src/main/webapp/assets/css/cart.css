@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* CONTAINER */
+.cart-container {
+    width: 75%;
+    margin: 40px auto;
+}
+
+/* TITLE */
+.cart-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* EMPTY */
+.empty {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ITEM CARD */
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.cart-item img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* DETAILS */
+.details {
+    flex: 1;
+}
+
+.details h3 {
+    margin: 0;
+}
+
+/* QUANTITY */
+.qty-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-form input {
+    width: 60px;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.qty-form button {
+    padding: 6px 12px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.qty-form button:hover {
+    background: #574bdb;
+}
+
+/* REMOVE */
+.remove-btn {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TOTAL */
+.total-box {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #019875;
+}

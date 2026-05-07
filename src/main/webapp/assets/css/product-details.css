@@ -1,0 +1,118 @@
+/* ===== CONTAINER ===== */
+.details-container {
+    padding: 40px;
+    background: #f5f6fa;
+}
+
+/* ===== CARD LAYOUT ===== */
+.details-card {
+    display: flex;
+    gap: 40px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ===== IMAGE SECTION ===== */
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* ===== INFO SECTION ===== */
+.info-section {
+    flex: 1;
+}
+
+/* ===== TEXT ===== */
+.info-section h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.brand {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 22px;
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* ===== SIZE OPTIONS ===== */
+.sizes {
+    margin-bottom: 20px;
+}
+
+.sizes h4 {
+    margin-bottom: 10px;
+}
+
+.size-option {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 14px;
+    background: #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.size-option input {
+    margin-right: 5px;
+}
+
+/* Hover */
+.size-option:hover {
+    background: #6c5ce7;
+    color: #fff;
+}
+
+/* Selected */
+.size-option input:checked + span {
+    color: #fff;
+}
+
+/* ===== BUTTON ===== */
+.add-btn {
+    padding: 12px 25px;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.add-btn:hover {
+    background: #574bdb;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .details-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,83 @@
+/* ===== PAGE BACKGROUND ===== */
+body {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+/* ===== CONTAINER ===== */
+.form-container {
+    width: 360px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* ===== TITLE ===== */
+.form-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* ===== INPUT FIELDS ===== */
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+/* Focus effect */
+.form-container input:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.4);
+    outline: none;
+}
+
+/* ===== BUTTON ===== */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-container button:hover {
+    background: #574bdb;
+    transform: translateY(-2px);
+}
+
+/* ===== ERROR MESSAGE ===== */
+.error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* ===== LINK ===== */
+.form-container a {
+    color: #6c5ce7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER TEXT ===== */
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
